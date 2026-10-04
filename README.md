@@ -2,6 +2,13 @@
 
 Predator Kesha is a Linux control daemon, CLI and simple GUI for newer Acer Predator laptops. I originally wrote this for my own laptop because other tools didn't support the latest models.
 
+
+<img width="680" height="874" alt="gui1" src="https://github.com/user-attachments/assets/cab287ac-d9b3-44ae-8ca5-84367df9779f" />
+<img width="679" height="872" alt="gui2" src="https://github.com/user-attachments/assets/d5d57509-d27d-4945-8bfc-ae4e66091056" />
+<img width="1654" height="1084" alt="cli1" src="https://github.com/user-attachments/assets/525f7a30-9f2a-480f-9a67-ba1d70394a3c" />
+
+
+
 Newer Acer laptops (mostly 2024+ models) use internal USB HID devices to manage RGB lighting and power profiles, replacing the traditional `acer-wmi` kernel module. This project communicates directly with these devices using `/dev/hidraw`. 
 
 **The program runs entirely in user-space, which means you do not need to compile or install any custom kernel modules.**
