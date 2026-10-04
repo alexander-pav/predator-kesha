@@ -4,7 +4,7 @@ Predator Kesha is a Linux control daemon, CLI and simple GUI for newer Acer Pred
 
 
 <img width="340" height="437" alt="gui2" src="https://github.com/user-attachments/assets/d5d57509-d27d-4945-8bfc-ae4e66091056" /><img width="340" height="437" alt="gui1" src="https://github.com/user-attachments/assets/cab287ac-d9b3-44ae-8ca5-84367df9779f" />
-<img width="827" height="542" alt="cli1" src="https://github.com/user-attachments/assets/525f7a30-9f2a-480f-9a67-ba1d70394a3c" />
+<img width="600" height="400" alt="cli1" src="https://github.com/user-attachments/assets/525f7a30-9f2a-480f-9a67-ba1d70394a3c" />
 
 
 
