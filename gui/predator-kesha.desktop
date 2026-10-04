@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Predator Kesha Control
+Comment=Predator Kesha Power RGB Control for ACER Laptops
+Exec=predator-kesha-gui
+Icon=/usr/share/icons/hicolor/scalable/apps/predator-kesha.svg
+Terminal=false
+Type=Application
+Categories=Settings;System;
+StartupNotify=false
