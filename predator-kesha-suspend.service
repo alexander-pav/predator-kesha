@@ -1,0 +1,16 @@
+[Unit]
+Description=Predator Kesha Suspend Resume Workaraund
+Before=sleep.target
+StopWhenUnneeded=yes
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/local/bin/predator-kesha --suspend
+
+ExecStop=/usr/local/bin/predator-kesha --wakeup
+
+RemainAfterExit=yes
+
+[Install]
+WantedBy=sleep.target

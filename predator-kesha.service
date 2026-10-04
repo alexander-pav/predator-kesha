@@ -1,0 +1,15 @@
+[Unit]
+Description=Predator Kesha ACER Laptop Control Daemon
+After=network.target systemd-modules-load.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/predator-kesha --daemon
+Restart=always
+RestartSec=5
+User=root
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
